@@ -1,0 +1,10 @@
+.navbar {
+  background-color: var(--accent-8);
+  box-shadow: var(--shadow-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  height: 64px;
+  justify-content: center;
+  padding: 0 var(--space-2);
+}

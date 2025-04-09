@@ -2,3 +2,20 @@ html, body {
   margin: 0;
   padding: 0
 }
+
+.container {
+  height: 100dvh;
+  .rt-ContainerInner {
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+  }
+}
+
+.content {
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+}
